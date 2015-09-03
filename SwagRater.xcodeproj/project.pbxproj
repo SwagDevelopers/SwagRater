@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D79FBB2A1B98B052006739B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79FBB291B98B052006739B8 /* AppDelegate.swift */; };
+		D79FBB2C1B98B052006739B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79FBB2B1B98B052006739B8 /* ViewController.swift */; };
+		D79FBB2F1B98B052006739B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79FBB2D1B98B052006739B8 /* Main.storyboard */; };
+		D79FBB311B98B052006739B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79FBB301B98B052006739B8 /* Images.xcassets */; };
+		D79FBB341B98B052006739B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D79FBB321B98B052006739B8 /* LaunchScreen.xib */; };
+		D79FBB401B98B053006739B8 /* SwagRaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79FBB3F1B98B053006739B8 /* SwagRaterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D79FBB3A1B98B053006739B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D79FBB1C1B98B052006739B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D79FBB231B98B052006739B8;
+			remoteInfo = SwagRater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D79FBB241B98B052006739B8 /* SwagRater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwagRater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79FBB281B98B052006739B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D79FBB291B98B052006739B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D79FBB2B1B98B052006739B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D79FBB2E1B98B052006739B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D79FBB301B98B052006739B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D79FBB331B98B052006739B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D79FBB391B98B053006739B8 /* SwagRaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwagRaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79FBB3E1B98B053006739B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D79FBB3F1B98B053006739B8 /* SwagRaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwagRaterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D79FBB211B98B052006739B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79FBB361B98B053006739B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D79FBB1B1B98B052006739B8 = {
+			isa = PBXGroup;
+			children = (
+				D79FBB261B98B052006739B8 /* SwagRater */,
+				D79FBB3C1B98B053006739B8 /* SwagRaterTests */,
+				D79FBB251B98B052006739B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D79FBB251B98B052006739B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D79FBB241B98B052006739B8 /* SwagRater.app */,
+				D79FBB391B98B053006739B8 /* SwagRaterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D79FBB261B98B052006739B8 /* SwagRater */ = {
+			isa = PBXGroup;
+			children = (
+				D79FBB291B98B052006739B8 /* AppDelegate.swift */,
+				D79FBB2B1B98B052006739B8 /* ViewController.swift */,
+				D79FBB2D1B98B052006739B8 /* Main.storyboard */,
+				D79FBB301B98B052006739B8 /* Images.xcassets */,
+				D79FBB321B98B052006739B8 /* LaunchScreen.xib */,
+				D79FBB271B98B052006739B8 /* Supporting Files */,
+			);
+			path = SwagRater;
+			sourceTree = "<group>";
+		};
+		D79FBB271B98B052006739B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D79FBB281B98B052006739B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D79FBB3C1B98B053006739B8 /* SwagRaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				D79FBB3F1B98B053006739B8 /* SwagRaterTests.swift */,
+				D79FBB3D1B98B053006739B8 /* Supporting Files */,
+			);
+			path = SwagRaterTests;
+			sourceTree = "<group>";
+		};
+		D79FBB3D1B98B053006739B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D79FBB3E1B98B053006739B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D79FBB231B98B052006739B8 /* SwagRater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79FBB431B98B053006739B8 /* Build configuration list for PBXNativeTarget "SwagRater" */;
+			buildPhases = (
+				D79FBB201B98B052006739B8 /* Sources */,
+				D79FBB211B98B052006739B8 /* Frameworks */,
+				D79FBB221B98B052006739B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwagRater;
+			productName = SwagRater;
+			productReference = D79FBB241B98B052006739B8 /* SwagRater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D79FBB381B98B053006739B8 /* SwagRaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79FBB461B98B053006739B8 /* Build configuration list for PBXNativeTarget "SwagRaterTests" */;
+			buildPhases = (
+				D79FBB351B98B053006739B8 /* Sources */,
+				D79FBB361B98B053006739B8 /* Frameworks */,
+				D79FBB371B98B053006739B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D79FBB3B1B98B053006739B8 /* PBXTargetDependency */,
+			);
+			name = SwagRaterTests;
+			productName = SwagRaterTests;
+			productReference = D79FBB391B98B053006739B8 /* SwagRaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D79FBB1C1B98B052006739B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = SwagDevelopers;
+				TargetAttributes = {
+					D79FBB231B98B052006739B8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D79FBB381B98B053006739B8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D79FBB231B98B052006739B8;
+					};
+				};
+			};
+			buildConfigurationList = D79FBB1F1B98B052006739B8 /* Build configuration list for PBXProject "SwagRater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D79FBB1B1B98B052006739B8;
+			productRefGroup = D79FBB251B98B052006739B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D79FBB231B98B052006739B8 /* SwagRater */,
+				D79FBB381B98B053006739B8 /* SwagRaterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D79FBB221B98B052006739B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79FBB2F1B98B052006739B8 /* Main.storyboard in Resources */,
+				D79FBB341B98B052006739B8 /* LaunchScreen.xib in Resources */,
+				D79FBB311B98B052006739B8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79FBB371B98B053006739B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D79FBB201B98B052006739B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79FBB2C1B98B052006739B8 /* ViewController.swift in Sources */,
+				D79FBB2A1B98B052006739B8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79FBB351B98B053006739B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79FBB401B98B053006739B8 /* SwagRaterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D79FBB3B1B98B053006739B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D79FBB231B98B052006739B8 /* SwagRater */;
+			targetProxy = D79FBB3A1B98B053006739B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D79FBB2D1B98B052006739B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D79FBB2E1B98B052006739B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D79FBB321B98B052006739B8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D79FBB331B98B052006739B8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D79FBB411B98B053006739B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D79FBB421B98B053006739B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D79FBB441B98B053006739B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwagRater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D79FBB451B98B053006739B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwagRater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D79FBB471B98B053006739B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwagRaterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwagRater.app/SwagRater";
+			};
+			name = Debug;
+		};
+		D79FBB481B98B053006739B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwagRaterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwagRater.app/SwagRater";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D79FBB1F1B98B052006739B8 /* Build configuration list for PBXProject "SwagRater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79FBB411B98B053006739B8 /* Debug */,
+				D79FBB421B98B053006739B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79FBB431B98B053006739B8 /* Build configuration list for PBXNativeTarget "SwagRater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79FBB441B98B053006739B8 /* Debug */,
+				D79FBB451B98B053006739B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D79FBB461B98B053006739B8 /* Build configuration list for PBXNativeTarget "SwagRaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79FBB471B98B053006739B8 /* Debug */,
+				D79FBB481B98B053006739B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D79FBB1C1B98B052006739B8 /* Project object */;
+}
