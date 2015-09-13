@@ -13,6 +13,9 @@
 		D79FBB311B98B052006739B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79FBB301B98B052006739B8 /* Images.xcassets */; };
 		D79FBB341B98B052006739B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D79FBB321B98B052006739B8 /* LaunchScreen.xib */; };
 		D79FBB401B98B053006739B8 /* SwagRaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79FBB3F1B98B053006739B8 /* SwagRaterTests.swift */; };
+		FD9ED6901BA62412001617D8 /* SwagSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9ED68F1BA62412001617D8 /* SwagSlider.swift */; };
+		FD9ED6921BA62425001617D8 /* SwagRater.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9ED6911BA62425001617D8 /* SwagRater.swift */; };
+		FD9ED6941BA62440001617D8 /* SwagImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9ED6931BA62440001617D8 /* SwagImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		D79FBB391B98B053006739B8 /* SwagRaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwagRaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79FBB3E1B98B053006739B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D79FBB3F1B98B053006739B8 /* SwagRaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwagRaterTests.swift; sourceTree = "<group>"; };
+		FD9ED68F1BA62412001617D8 /* SwagSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwagSlider.swift; sourceTree = "<group>"; };
+		FD9ED6911BA62425001617D8 /* SwagRater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwagRater.swift; sourceTree = "<group>"; };
+		FD9ED6931BA62440001617D8 /* SwagImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwagImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		D79FBB261B98B052006739B8 /* SwagRater */ = {
 			isa = PBXGroup;
 			children = (
+				FD9ED68C1BA61FFB001617D8 /* SwagComponents */,
 				D79FBB291B98B052006739B8 /* AppDelegate.swift */,
 				D79FBB2B1B98B052006739B8 /* ViewController.swift */,
 				D79FBB2D1B98B052006739B8 /* Main.storyboard */,
@@ -110,6 +117,16 @@
 				D79FBB3E1B98B053006739B8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD9ED68C1BA61FFB001617D8 /* SwagComponents */ = {
+			isa = PBXGroup;
+			children = (
+				FD9ED68F1BA62412001617D8 /* SwagSlider.swift */,
+				FD9ED6911BA62425001617D8 /* SwagRater.swift */,
+				FD9ED6931BA62440001617D8 /* SwagImage.swift */,
+			);
+			name = SwagComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD9ED6941BA62440001617D8 /* SwagImage.swift in Sources */,
 				D79FBB2C1B98B052006739B8 /* ViewController.swift in Sources */,
+				FD9ED6901BA62412001617D8 /* SwagSlider.swift in Sources */,
+				FD9ED6921BA62425001617D8 /* SwagRater.swift in Sources */,
 				D79FBB2A1B98B052006739B8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +431,7 @@
 				D79FBB451B98B053006739B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D79FBB461B98B053006739B8 /* Build configuration list for PBXNativeTarget "SwagRaterTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +440,7 @@
 				D79FBB481B98B053006739B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -14,6 +14,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        let swagRater = SwagRater()
+        swagRater.frame = view.frame
+        swagRater.backgroundColor = UIColor.redColor()
+        
+        view.addSubview(swagRater)
     }
 
     override func didReceiveMemoryWarning() {
